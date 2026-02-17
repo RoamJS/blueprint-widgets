@@ -1,7 +1,7 @@
 {
-  "name": "extension-base",
+  "name": "blueprint-widgets",
   "version": "1.0.0",
-  "description": "Stock RoamJS Roam Research Extension base — fork this repo to start new extensions.",
+  "description": "Blueprint UI widgets for inline block syntax with per-instance settings and persistent values.",
   "main": "index.js",
   "scripts": {
     "postinstall": "patch-package",
@@ -10,9 +10,14 @@
     "build:roam": "samepage build --dry",
     "test": "samepage test"
   },
-  "keywords": ["roam", "roam-research", "roamjs"],
+  "keywords": [
+    "roam",
+    "roamjs",
+    "blueprint"
+  ],
   "license": "MIT",
   "dependencies": {
+    "@blueprintjs/core": "3.50.4",
     "roamjs-components": "^0.86.4"
   },
   "devDependencies": {
