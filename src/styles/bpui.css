@@ -1,0 +1,164 @@
+.bpui-inline-host {
+  display: inline-flex;
+  margin-left: 0.35rem;
+  vertical-align: middle;
+}
+
+.bpui-widget-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.bpui-inline-widget {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  position: relative;
+}
+
+.bpui-widget-main {
+  display: inline-flex;
+  align-items: center;
+}
+
+.bpui-widget-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.bpui-settings-trigger.bp3-button {
+  min-height: 20px;
+  min-width: 20px;
+}
+
+.bpui-settings-popover {
+  min-width: 320px;
+  max-width: 420px;
+  padding: 0.5rem;
+}
+
+.bpui-widget-settings-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.bpui-widget-settings-title {
+  margin: 0 0 0.2rem;
+}
+
+.bpui-widget-settings-actions {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.bpui-widget-settings-previews {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4rem;
+}
+
+.bpui-widget-settings-previews pre {
+  max-height: 140px;
+  overflow: auto;
+  white-space: pre-wrap;
+  background: rgba(128, 128, 128, 0.08);
+  padding: 0.35rem;
+  border-radius: 3px;
+}
+
+.bpui-widget-settings-json-textarea {
+  width: 100%;
+}
+
+.bpui-slider-widget .bp3-slider {
+  min-width: 140px;
+}
+
+.bpui-progress-widget .bp3-progress-bar {
+  min-width: 120px;
+}
+
+.bpui-card-widget .bp3-card {
+  max-width: 360px;
+}
+
+.bpui-card-compact {
+  padding: 0.4rem;
+}
+
+.bpui-card-title {
+  margin: 0 0 0.2rem;
+}
+
+.bpui-card-body-text {
+  margin-bottom: 0.35rem;
+}
+
+.bpui-card-children {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.bpui-tabs-widget {
+  min-width: 180px;
+}
+
+.bpui-tabs-panel {
+  padding-top: 0.35rem;
+}
+
+.bpui-empty-tab-content {
+  opacity: 0.65;
+  font-size: 0.85em;
+}
+
+.bpui-roam-fallback {
+  font-size: 0.8em;
+  opacity: 0.75;
+}
+
+.bpui-hidden-value-child {
+  display: none !important;
+}
+
+.bpui-native-checkbox-hidden {
+  display: none !important;
+}
+
+.bpui-todo-switch-host {
+  display: inline-flex;
+  margin-left: 0.15rem;
+  vertical-align: middle;
+}
+
+.bpui-tag {
+  margin: 0 0.1rem;
+}
+
+.bpui-tag-icon[data-side="left"] {
+  margin-right: 0.2rem;
+}
+
+.bpui-tag-icon[data-side="right"] {
+  margin-left: 0.2rem;
+}
+
+@media (max-width: 720px) {
+  .bpui-widget-row {
+    row-gap: 0.25rem;
+  }
+
+  .bpui-settings-popover {
+    min-width: 280px;
+  }
+
+  .bpui-widget-settings-previews {
+    grid-template-columns: 1fr;
+  }
+}
+
