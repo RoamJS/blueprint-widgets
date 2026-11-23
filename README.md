@@ -2,6 +2,8 @@
 
 Stock base for [RoamJS](https://roamjs.com) Roam Research extensions. **Fork this repo** to start a new extension.
 
+[![#roam-js on Slack](https://roamjs.com/badges/slack.svg)](https://roamresearch.slack.com/archives/C016N2B66JU)
+
 ## What's included
 
 - **roamjs-components** — shared utilities, DOM helpers, queries, writes, and UI components
